@@ -1,6 +1,6 @@
 publishDir = "docs"
 
-baseurl         = ""
+baseurl         = "/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
