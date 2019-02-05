@@ -2,6 +2,8 @@
 
 ## Generation instructions
 
+This is a useful tutorial https://www.youtube.com/watch?v=c7vpcqA6SEQ
+
 ### 1) Create github repo
 
 ### 2) Clone repo to local machine
