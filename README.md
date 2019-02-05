@@ -54,7 +54,13 @@ Add a build parameter to config.toml
 publishDir = "docs"
 ~~~
 
-### 11) Turn on Github Pages support in repository settings
+### 11) Build the site into docs
+~~~
+C:\Users\james\Documents\hugo.exe -t casper-two
+~~~
+
+
+### 12) Turn on Github Pages support in repository settings
 
 Ensure the page is server out of the /docs folder.
 
