@@ -8,8 +8,8 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
+  title       = "James Jansson Team for NSW"
+  subtitle    = "Candidates for humans"
 
   cover       = "img/blog-cover.jpg"
   description = "Here is a description of your site."
@@ -18,20 +18,22 @@ paginate        = 6
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
+  twitterName = "jj4nsw"
+  fbName = "JamesJanssonTeamForNSW"
+  #githubName = "jamesjansson"
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  logo = "img/jj4nsw-button.png"
+  whiteHeaderLogo = "img/jj4nsw-title-logo-white.png"
+  darkHeaderLogo = "img/jj4nsw-title-logo-black.png"
+  orgName = "James Jansson Team for NSW"
+  orgWebsite = "https://jj4nsw.org"
+  orgDescription = "Candidates for humans"
 
-  author = "EM"
-  authorAvatar = "img/ghost-icon.png"
-  authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Describe yourself.."
+  author = "James Jansson"
+  authorAvatar = "img/jj4nsw-button.png"
+  authorLocation = "Sydney, Australia"
+  authorWebsite = "https://jj4nsw.org"
+  authorDescription = "James Jansson is running as the lead candidate on the James Jansson Team ticket for the NSW Legislative Council (state upper house)."
 
   pageNotFoundTitle = "404 - Page not found"
 
@@ -47,8 +49,8 @@ paginate        = 6
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
+  name = "About"
+  url = "/about/"
   weight = 100
 
 [[menu.main]]
