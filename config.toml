@@ -9,10 +9,11 @@ paginate        = 6
 
 [params]
   title       = "James Jansson Team for NSW"
-  subtitle    = "Candidates for humans"
+  subtitle    = "Candidates for Humans"
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  defaultSocialImg = "img/social.jpg"
+  description = "Candidates for Humans."
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []

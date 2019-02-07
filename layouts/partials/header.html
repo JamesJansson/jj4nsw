@@ -1,11 +1,41 @@
-<header class="site-header outer " {{if .Site.Params.cover}} style="background-image: url({{.Site.Params.cover | absURL}})" {{end}} >
+{{ partial "header-sori" . }} 
+<!-- <header class="site-header outer " {{if .Site.Params.cover}} style="background-image: url({{.Site.Params.cover | absURL}})" {{end}} > -->
+<header class="outer " {{if .Site.Params.cover}}
+    style="background-image: url({{.Site.Params.cover | absURL}})" {{end}} >  
   <div class="inner">
     <div class="site-header-content">
-      <h1 class="site-title">{{ if .Site.Params.logo }}
-        <img class="site-logo" style="max-height: 300px;" src="{{ .Site.Params.logo  | absURL}}" alt="{{ .Site.Params.title }}" />
-      {{else}} {{ .Site.Params.title }} {{end}} </h1>
-        <!-- <h2 class="site-description">{{ .Site.Params.subtitle }} </h2> -->
+      <div>
+        {{ if .Site.Params.logo }}
+          <img class="site-logo" style="max-height: 300px;" src="{{ .Site.Params.logo  | absURL}}" alt="{{ .Site.Params.title }}" />
+        {{else}}
+          <h1 class="site-title">
+            {{ .Site.Params.title }}
+            <h2 class="site-description">{{ .Site.Params.subtitle }} </h2>
+          </h1>
+        {{end}}
+      </div>
+      <div>
+        <a href="/donate"><button style="background-color: #fff; border-radius: 4px; color: rgba(0,0,0,.87);"><b>Donate to spread the word</b></button></a>
+        {{ if .Site.Params.featureYoutubeVideo }}
+          {{ if .Site.Params.callToActionButton }}
+            
+          {{ end }}
+        {{ end }}
+      </div>
     </div>
+
+    <!-- .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .flex-container > div {
+      margin: 10px;
+      text-align: center;
+      flex-grow: 1;
+      flex-basis:200px;
+    } -->
+
 
     <nav class="site-nav">
       <div class="site-nav-left"><ul class="nav" role="menu">

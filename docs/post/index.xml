@@ -6,18 +6,20 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Awesomeness</title>
-      <link>/awesomeness/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <title>We&#39;re live - Launch of the @JJ4NSW campaign</title>
+      <link>/were-live-launch-of-the-jj4nsw-campaign/</link>
+      <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/awesomeness/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.</description>
+      <guid>/were-live-launch-of-the-jj4nsw-campaign/</guid>
+      <description>It starts today, and it starts with you Today we&amp;rsquo;re going live: with our amazing new video and video.
+Our aim is to show the public that there is an alternative. A team with bright, positive ideas who are not beholden to vested interests and factional forces.
+Our vision is to invest in public infrastructure, invest into people through their education and helath care, and cut the cost of living by removing artificial constraints on housing that only benefits the wealthy.</description>
     </item>
     
   </channel>
