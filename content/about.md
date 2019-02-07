@@ -10,7 +10,7 @@ type = "page"
 weight = 111
 
 +++
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/INmoOv_n8lI?rel=0&amp;controls=0&amp;showinfo=0&amp;start=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="this.height=this.offsetWidth*0.5625;"></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/INmoOv_n8lI?rel=0&amp;controls=1&amp;showinfo=0&amp;start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="this.height=this.offsetWidth*0.5625; this.offsetWidthStored=this.offsetWidth;(function(self){setInterval(function(){if(self.offsetWidthStored!==self.offsetWidth){self.height=self.offsetWidth*0.5625;}}, 200)})(this);"></iframe>
 
 The James Jansson Team for NSW is planning for a bigger, brighter future for NSW. We're free of vested interests and factional forces. We're focused on delivering results to the people of NSW. We're the candidates for humans.
 

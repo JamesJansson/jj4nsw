@@ -16,7 +16,7 @@ paginate        = 6
   description = "Candidates for Humans."
   metaDescription = ""
   googleAnalytics = ""
-  customCSS = []
+  customCSS = ["custom.css"]
   RSSLink = ""
 
   twitterName = "jj4nsw"
