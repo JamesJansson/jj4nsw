@@ -8,3 +8,21 @@
       top: 0px;
     }
 }
+
+.site-header-content {
+    max-height: none;
+}
+
+.site-nav-logo {
+    padding: 0px 0px;
+}
+
+@media (max-width:900px){
+    .site-nav-logo {
+        margin-right: 5px;
+    }
+}
+
+.site-nav-logo img{
+    height: 40px;
+}

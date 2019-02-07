@@ -10,7 +10,7 @@ type = "page"
 weight = 111
 
 +++
-Help the James Jansson Team let the people of NSW know that we're a viable alternative to the extablished parties.
+The people of NSW want to know there's a viable alternative to the established parties. Your donations will help get the word out.
 <br>
 <script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/james-jansson-team-for-nsw?amount=50" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest style="position: absolute; margin:auto;"></iframe>
 <br>
