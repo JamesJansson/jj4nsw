@@ -10,4 +10,9 @@ type = "page"
 weight = 111
 
 +++
-<script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/james-jansson-team-for-nsw?amount=50" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest></iframe>
+Help the James Jansson Team let the people of NSW know that we're a viable alternative to the extablished parties.
+<br>
+<script src="https://donorbox.org/widget.js" paypalExpress="false"></script><iframe src="https://donorbox.org/embed/james-jansson-team-for-nsw?amount=50" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" name="donorbox" frameborder="0" scrolling="no" allowpaymentrequest style="position: absolute; margin:auto;"></iframe>
+<br>
+<b>Legal disclaimer: </b> 
+By making this donation, you are declaring that you are not banned from making donations under NSW law. Individuals who are restricted from donating include owners, directors and close associates of tobacco, liquor, gambling or property development businesses.
