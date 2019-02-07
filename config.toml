@@ -22,6 +22,8 @@ paginate        = 6
   fbName = "JamesJanssonTeamForNSW"
   #githubName = "jamesjansson"
 
+  authorisation = "Authorised by Saritha Manickam 49 Harrington st Enmore"
+
   logo = "img/jj4nsw-button.png"
   whiteHeaderLogo = "img/jj4nsw-title-logo-white.png"
   darkHeaderLogo = "img/jj4nsw-title-logo-black.png"
