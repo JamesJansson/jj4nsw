@@ -48,10 +48,10 @@ paginate        = 6
   url = "/"
   weight = 200
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 100
+# [[menu.main]]
+#   name = "About"
+#   url = "/about/"
+#   weight = 100
 
 [[menu.main]]
   name = "Food"
