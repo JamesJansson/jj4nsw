@@ -46,10 +46,10 @@ paginate        = 6
 [permalinks]
   post = "/:slug/"
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 200
+#[[menu.main]]
+#  name = "Home"
+#  url = "/"
+#  weight = 200
 
 # [[menu.main]]
 #   name = "About"
