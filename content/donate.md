@@ -16,3 +16,5 @@ The people of NSW want to know there's a viable alternative to the established p
 <br>
 <b>Legal disclaimer: </b> 
 By making this donation, you are declaring that you are not banned from making donations under NSW law. Individuals who are restricted from donating include owners, directors and close associates of tobacco, liquor, gambling or property development businesses.
+
+Donations to the James Jansson Team for NSW may be claimed as a tax deduction up to $1,500. Please see [here](https://www.ato.gov.au/non-profit/gifts-and-fundraising/in-detail/fundraising/claiming-political-contributions-and-gifts/) for further details.
