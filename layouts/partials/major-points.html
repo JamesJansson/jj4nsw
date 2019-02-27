@@ -3,7 +3,18 @@
         <img src="https://i.imgur.com/9WrlkJd.jpg">
         <h2> Infrastructure for the future </h2>
         <ul>
-            <li> Woah </li>
+            <li class="collapsible" id="first_policy">
+                Here's the policy
+                
+            </li>
+            <div>
+                <p> 
+                    Details
+                </p>
+            </div>
+            <li><a href="">Expand</a> Woah 
+                <div><p> Details</p></div>
+            </li>
         </ul>
     </div>
     <div>
@@ -32,3 +43,38 @@
         <p> Hello </p>
     </div>
 </div>
+
+<script>
+    (function(){
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (let i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("mouseover", function() {
+            coll[i].style.color = "#8080ff";
+        });
+        coll[i].addEventListener("mouseout", function() {
+            coll[i].style.color = "#000000";
+        });
+        coll[i].innerHTML += '<u style="color: #aaa"><i>Expand</i></u>';
+        coll[i].style.cursor = 'pointer';
+        // Initialize visibility
+        let content = coll[i].nextElementSibling;
+        content.style.display = "none";
+        // If the hashname is in the link
+        if (window.location.hash === '#' + coll[i].getAttribute('id')) {
+            content.style.display = "block";
+        }
+
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+    })()
+</script>
