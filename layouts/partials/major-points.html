@@ -12,9 +12,15 @@
                     Details
                 </p>
             </div>
-            <li><a href="">Expand</a> Woah 
-                <div><p> Details</p></div>
+
+            <li class="collapsible" id="second_policy">
+                    Here's the policy
             </li>
+            <div>
+                <p> 
+                    Details 2
+                </p>
+            </div>
         </ul>
     </div>
     <div>
@@ -65,6 +71,17 @@
         if (window.location.hash === '#' + coll[i].getAttribute('id')) {
             content.style.display = "block";
         }
+        let collLink = window.location.toString();
+        if (window.location.hash) {
+            collLink = collLink.split(window.location.hash)[0];
+        }
+        collLink += '#' + coll[i].getAttribute('id');
+        console.log(collLink);
+        // https://www.facebook.com/sharer/sharer.php?u=
+        var collLinkEncoded = encodeURIComponent(collLink);
+        let facebookLauncher = 
+        '<a href="https://www.facebook.com/sharer/sharer.php?u=' + collLinkEncoded + 'onclick="window.open(this.href, \'share-facebook\',\'width=580,height=296\');return false;">Facebook</a>';
+        content.innerHTML += '<p>Share policy on: ' + facebookLauncher +'</p>';
 
         coll[i].addEventListener("click", function() {
             this.classList.toggle("active");
