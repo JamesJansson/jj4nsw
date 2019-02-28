@@ -1,5 +1,5 @@
 <div class="major-points">
-  <div>
+  <div id="transport">
     <img src="/img/high-speed-rail.jpg" />
     <h2>Transport for our future</h2>
     <ul>
@@ -115,16 +115,19 @@
       let content = coll[i].nextElementSibling;
       content.style.display = "none";
       // If the hashname is in the link
-      if (window.location.hash === "#" + coll[i].getAttribute("id")) {
+      var url = new URL(window.location);
+      var expand = url.searchParams.get("expand");
+      if (expand === coll[i].getAttribute("id")) {
         content.style.display = "block";
       }
       let collLink = window.location.toString();
       if (window.location.hash) {
         collLink = collLink.split(window.location.hash)[0];
       }
-      collLink += "#" + coll[i].getAttribute("id");
+      console.log(coll[i])
+      collLink += "?expand=" + coll[i].getAttribute("id") + "#" + coll[i].parentElement.parentElement.getAttribute("id");
       console.log(collLink);
-      // https://www.facebook.com/sharer/sharer.php?u=
+      
       var collLinkEncoded = encodeURIComponent(collLink);
       let facebookLauncher =
         '<a href="https://www.facebook.com/sharer/sharer.php?u=' +
