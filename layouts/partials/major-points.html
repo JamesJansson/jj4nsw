@@ -105,7 +105,7 @@
     var coll = document.getElementsByClassName("expandablepoint");
     var i;
 
-    for (let i = 0; i < coll.length; i++) {
+    for (var i = 0; i < coll.length; i++) {
       coll[i].addEventListener("mouseover", function() {
         coll[i].style.color = "#8080ff";
       });
@@ -116,7 +116,7 @@
       coll[i].style.cursor = "pointer";
       coll[i].style["font-weight"] = "bold";
       // Initialize visibility
-      let content = coll[i].nextElementSibling;
+      var content = coll[i].nextElementSibling;
       content.style.display = "none";
       // If the hashname is in the link
       var url = new URL(window.location);
@@ -124,7 +124,7 @@
       if (expand === coll[i].getAttribute("id")) {
         content.style.display = "block";
       }
-      let collLink = window.location.toString();
+      var collLink = window.location.toString();
       if (window.location.hash) {
         collLink = collLink.split(window.location.hash)[0];
       }
@@ -133,10 +133,12 @@
       console.log(collLink);
       
       var collLinkEncoded = encodeURIComponent(collLink);
-      let facebookLauncher =
+      var facebookLauncher =
         '<a href="https://www.facebook.com/sharer/sharer.php?u=' +
         collLinkEncoded +
         "\" onclick=\"window.open(this.href, 'share-facebook','width=580,height=296');return false;\">Facebook</a>";
+
+      
       content.innerHTML += "<div style=\"background-color: rgb(207,241,255)\"><p><b>Like this policy?</b> We need your help telling people there's an alternative. Share this policy on: " + facebookLauncher + "</p><p>Help us by liking our <a href=\"https://www.facebook.com/JamesJanssonTeamForNSW/\">Facebook page</a> and following our <a href=\"https://twitter.com/jj4nsw\">Twitter account</a>.</p></div>";
 
       coll[i].addEventListener("click", function() {
