@@ -11,6 +11,8 @@ type = "page"
 
 <p><a href="https://commons.wikimedia.org/wiki/File:High_Speed_Rail_(HER)_in_Shanghai.jpg">High-speed rail</a></p>
 
+<p><a href="https://en.wikipedia.org/wiki/File:Jamison_Valley,_Blue_Mountains,_Australia_-_Nov_2008.jpg">Blue mountains</a></p>
+
 
 
 
