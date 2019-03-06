@@ -8,7 +8,7 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
-  title       = "James Jansson Team for NSW"
+  title       = "James Jansson Team for NSW Upper House Election"
   subtitle    = "Candidates for Humans"
 
   cover       = "img/blog-cover.jpg"
@@ -23,7 +23,7 @@ paginate        = 6
   fbName = "JamesJanssonTeamForNSW"
   #githubName = "jamesjansson"
 
-  authorisation = "Authorised by Saritha Manickam 49 Harrington st Enmore"
+  authorisation = "Authorised by Saritha Manickam 49 Harrington St Enmore"
 
   logo = "img/jj4nsw-button.png"
   whiteHeaderLogo = "img/jj4nsw-title-logo-white.png"
