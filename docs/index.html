@@ -9,40 +9,40 @@
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="canonical" href="/" />
+    <link rel="shortcut icon" href="https://jj4nsw.org/favicon.ico" />
+    <link rel="canonical" href="https://jj4nsw.org/" />
 
     
     <meta name="description" content="Candidates for Humans." /> 
 
     
     <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:image" content="/img/social.jpg"/>
+    <meta name="twitter:image" content="https://jj4nsw.org/img/social.jpg"/>
  
     <meta name="twitter:title" content=""/>
     <meta name="twitter:description" content="Candidates for Humans."/>
-    <meta name="twitter:url" content="/" />
+    <meta name="twitter:url" content="https://jj4nsw.org/" />
     <meta name="twitter:site" content="@jj4nsw"/>
 
     <meta property="og:site_name" content="" />
     <meta property="og:title" content="James Jansson Team for NSW Upper House Election" />
-    <meta property="og:url" content="/" />
+    <meta property="og:url" content="https://jj4nsw.org/" />
     <meta property="article:publisher" content="https://www.facebook.com/JamesJanssonTeamForNSW" />
 
     <meta property="og:type" content="website" />
     <meta property="og:description" content="Candidates for Humans." />
 
-    <meta property="og:image" content="/img/social.jpg"/>
+    <meta property="og:image" content="https://jj4nsw.org/img/social.jpg"/>
 
     <meta name="generator" content="Hugo 0.54.0" />
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="/built/screen.css" /> 
-    <link rel="stylesheet" type="text/css" href="/css/casper-two.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://jj4nsw.org/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="https://jj4nsw.org/css/casper-two.css" /> 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
-     <link rel="stylesheet" href="/custom.css" /> 
+     <link rel="stylesheet" href="https://jj4nsw.org/custom.css" /> 
 
-    <link href="/index.xml" rel="alternate" type="application/rss+xml" title="" />  
+    <link href="https://jj4nsw.org/index.xml" rel="alternate" type="application/rss+xml" title="" />  
 
     
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134108554-1"></script>
@@ -81,7 +81,7 @@
   <div class="inner">
     <nav class="site-nav">
       <div class="site-nav-left">
-        <a class="site-nav-logo" href="/"><img src="/img/jj4nsw-title-logo-white.png" alt="James Jansson Team for NSW Upper House Election" /></a>
+        <a class="site-nav-logo" href="/"><img src="https://jj4nsw.org/img/jj4nsw-title-logo-white.png" alt="James Jansson Team for NSW Upper House Election" /></a>
 
         <ul class="nav" role="menu">
         
@@ -118,13 +118,13 @@
 </header> 
 
 <header class="outer " 
-    style="background-image: url(/img/blog-cover.jpg); background-size:cover;"  >  
+    style="background-image: url(https://jj4nsw.org/img/blog-cover.jpg); background-size:cover;"  >  
   <div class="inner">
     <div class="site-header-content" style="padding: 1vw;">
       <div style="width:100%; min-height:300px; padding: 1vw; display: flex;flex-wrap: wrap;">
         <div style="flex-basis:250px; margin: 10px; text-align: center; flex-grow: 1;">
           
-            <img class="site-logo" style="max-height: 350px;" src="/img/jj4nsw-button.png" alt="James Jansson Team for NSW Upper House Election" />
+            <img class="site-logo" style="max-height: 350px;" src="https://jj4nsw.org/img/jj4nsw-button.png" alt="James Jansson Team for NSW Upper House Election" />
           
         </div>
         <div style="flex-basis: 450px; margin: -10px; text-align: center; flex-grow: 1;">
@@ -156,7 +156,7 @@
       </li>
       <div> 
         <ul>
-          <li> A high-speed, limited-stop line from Penrith to Central Sydney to ease congestion on the Western Line</li>
+          <li> A new high-speed, limited-stop line from Penrith to Central Sydney to ease congestion on the Western Line</li>
           <li> A metro to the Northern Beaches from the city, not a motorway which will clog the Harbour Bridge and tunnel </li>
           <li> A metro joining the Eastern Suburbs (including Maroubra and UNSW), central station and Sydney Airport</li>
           <li> Connect Carlingford line to Epping station and duplicating line</li>
@@ -504,18 +504,21 @@
       if (window.location.hash) {
         collLink = collLink.split(window.location.hash)[0];
       }
-      console.log(coll[i])
+
       collLink += "?expand=" + coll[i].getAttribute("id") + "#" + coll[i].parentElement.parentElement.getAttribute("id");
-      console.log(collLink);
       
       var collLinkEncoded = encodeURIComponent(collLink);
+      var postText = encodeURIComponent('Vote 1 James Jansson Team in the NSW upper house.');
       var facebookLauncher =
         '<a href="https://www.facebook.com/sharer/sharer.php?u=' +
         collLinkEncoded +
         "\" onclick=\"window.open(this.href, 'share-facebook','width=580,height=296');return false;\">Facebook</a>";
-
+      var twitterLauncher =
+        '<a href="https://twitter.com/share?text=' + postText + '&amp;url=' +
+        collLinkEncoded +
+        "\" onclick=\"window.open(this.href, 'share-twitter','width=580,height=296');return false;\">Twitter</a>";
       
-      content.innerHTML += "<div style=\"background-color: rgb(207,241,255)\"><p><b>Like this policy?</b> We need your help telling people there's an alternative. Share this policy on: " + facebookLauncher + "</p><p>Help us by liking our <a href=\"https://www.facebook.com/JamesJanssonTeamForNSW/\">Facebook page</a> and following our <a href=\"https://twitter.com/jj4nsw\">Twitter account</a>.</p></div>";
+      content.innerHTML += "<div style=\"background-color: rgb(207,241,255)\"><p><b>Like this policy?</b> We need your help telling people there's an alternative. Share this policy on: " + facebookLauncher + " or " + twitterLauncher + "</p><p>Help us by liking our <a href=\"https://www.facebook.com/JamesJanssonTeamForNSW/\">Facebook page</a> and following our <a href=\"https://twitter.com/jj4nsw\">Twitter account</a>.</p></div>";
 
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
@@ -538,13 +541,13 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/live-music-is-an-economic-social-and-cultural-asset/">
-      <div class="post-card-image" style="background-image: url(/img/book-of-honk.jpg)"></div>
+    <a class="post-card-image-link" href="https://jj4nsw.org/live-music-is-an-economic-social-and-cultural-asset/">
+      <div class="post-card-image" style="background-image: url(https://jj4nsw.org/img/book-of-honk.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/live-music-is-an-economic-social-and-cultural-asset/">
+      <a class="post-card-content-link" href="https://jj4nsw.org/live-music-is-an-economic-social-and-cultural-asset/">
           <header class="post-card-header">
               
               <h2 class="post-card-title">Live music is an economic, social and cultural asset</h2>
@@ -557,7 +560,7 @@
       </a>
 
       <footer class="post-card-meta">
-          <img class="author-profile-image" src="/img/jj4nsw-button.png" alt="Author" />
+          <img class="author-profile-image" src="https://jj4nsw.org/img/jj4nsw-button.png" alt="Author" />
           <span class="post-card-author"><a href="/">Andrea Leong</a></span>
       </footer>
     </div>
@@ -566,13 +569,13 @@
 
 <article class="post-card post"> 
     
-    <a class="post-card-image-link" href="/were-live-launch-of-the-jj4nsw-campaign/">
-      <div class="post-card-image" style="background-image: url(/img/opera-bar-social-preview.jpg)"></div>
+    <a class="post-card-image-link" href="https://jj4nsw.org/were-live-launch-of-the-jj4nsw-campaign/">
+      <div class="post-card-image" style="background-image: url(https://jj4nsw.org/img/opera-bar-social-preview.jpg)"></div>
     </a>
     
 
     <div class="post-card-content">
-      <a class="post-card-content-link" href="/were-live-launch-of-the-jj4nsw-campaign/">
+      <a class="post-card-content-link" href="https://jj4nsw.org/were-live-launch-of-the-jj4nsw-campaign/">
           <header class="post-card-header">
               
               <h2 class="post-card-title">We&#39;re live - Launch of the @JJ4NSW campaign</h2>
@@ -587,7 +590,7 @@ Our vision is to invest in public infrastructure, invest into people through the
       </a>
 
       <footer class="post-card-meta">
-          <img class="author-profile-image" src="/img/jj4nsw-button.png" alt="Author" />
+          <img class="author-profile-image" src="https://jj4nsw.org/img/jj4nsw-button.png" alt="Author" />
           <span class="post-card-author"><a href="/">James Jansson</a></span>
       </footer>
     </div>
@@ -625,7 +628,7 @@ Our vision is to invest in public infrastructure, invest into people through the
 
 </div><script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="https://jj4nsw.org/js/jquery.fitvids.js"></script>
 
 <script>hljs.initHighlightingOnLoad();</script>
 

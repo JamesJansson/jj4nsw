@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>/</link>
+    <link>https://jj4nsw.org/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jj4nsw.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Live music is an economic, social and cultural asset</title>
-      <link>/live-music-is-an-economic-social-and-cultural-asset/</link>
+      <link>https://jj4nsw.org/live-music-is-an-economic-social-and-cultural-asset/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/live-music-is-an-economic-social-and-cultural-asset/</guid>
+      <guid>https://jj4nsw.org/live-music-is-an-economic-social-and-cultural-asset/</guid>
       <description>Perhaps I&amp;rsquo;m naive, but I did not anticipate the NSW government&amp;rsquo;s latest move in the war on live music. We have people offering their services to test pills at festivals, but our Premier Gladys Berejiklian doesn&amp;rsquo;t like that idea. So, instead, we&amp;rsquo;re getting complex, onerous new regulations for music festivals (some details have been reported). A few festivals have cancelled their 2019 events, citing the large cost of compliance with the new regulations as the reason for shutting down.</description>
     </item>
     
     <item>
       <title>We&#39;re live - Launch of the @JJ4NSW campaign</title>
-      <link>/were-live-launch-of-the-jj4nsw-campaign/</link>
+      <link>https://jj4nsw.org/were-live-launch-of-the-jj4nsw-campaign/</link>
       <pubDate>Thu, 07 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/were-live-launch-of-the-jj4nsw-campaign/</guid>
+      <guid>https://jj4nsw.org/were-live-launch-of-the-jj4nsw-campaign/</guid>
       <description>It starts today, and it starts with you Today we&amp;rsquo;re going live: with our amazing new video and website.
 Our aim is to show the public that there is an alternative. A team with bright, positive ideas who are not beholden to vested interests and factional forces.
 Our vision is to invest in public infrastructure, invest into people through their education and health care, and cut the cost of living by removing artificial constraints on housing that only benefits the wealthy.</description>
@@ -33,19 +33,19 @@ Our vision is to invest in public infrastructure, invest into people through the
     
     <item>
       <title>Awesomeness</title>
-      <link>/unused/my-first-post/</link>
+      <link>https://jj4nsw.org/unused/my-first-post/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/unused/my-first-post/</guid>
+      <guid>https://jj4nsw.org/unused/my-first-post/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://jj4nsw.org/about/</link>
       <pubDate>Thu, 14 Feb 2019 22:17:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://jj4nsw.org/about/</guid>
       <description>Media enquiries can be sent to jamesjansson4nsw@gmail.com
 The James Jansson Team for NSW is planning for a bigger, brighter future for NSW. We&amp;rsquo;re free of vested interests and factional forces. We&amp;rsquo;re focused on delivering results to the people of NSW. We&amp;rsquo;re the candidates for humans.
 Candidates We&amp;rsquo;re primarily made up of members and volunteers for the Science Party. The Science Party is not registered at the state level, we are running an independent ticket.</description>
@@ -53,10 +53,10 @@ Candidates We&amp;rsquo;re primarily made up of members and volunteers for the S
     
     <item>
       <title>Donate</title>
-      <link>/donate/</link>
+      <link>https://jj4nsw.org/donate/</link>
       <pubDate>Thu, 14 Feb 2019 22:17:00 +0000</pubDate>
       
-      <guid>/donate/</guid>
+      <guid>https://jj4nsw.org/donate/</guid>
       <description>The people of NSW want to know there&amp;rsquo;s a viable alternative to the established parties. Your donations will help get the word out.  Legal disclaimer:  By making this donation, you are declaring that you are not banned from making donations under NSW law. Individuals who are restricted from donating include owners, directors and close associates of tobacco, liquor, gambling or property development businesses.
 Donations to the James Jansson Team for NSW may be claimed as a tax deduction up to $1,500.</description>
     </item>
