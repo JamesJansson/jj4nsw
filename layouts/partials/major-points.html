@@ -362,13 +362,17 @@
       console.log(collLink);
       
       var collLinkEncoded = encodeURIComponent(collLink);
+      var postText = encodeURIComponent('Vote 1 James Jansson Team in the NSW upper house.');
       var facebookLauncher =
         '<a href="https://www.facebook.com/sharer/sharer.php?u=' +
         collLinkEncoded +
         "\" onclick=\"window.open(this.href, 'share-facebook','width=580,height=296');return false;\">Facebook</a>";
-
+      var twitterLauncher =
+        '<a href="https://twitter.com/share?text=' + postText + '&amp;url=' +
+        collLinkEncoded +
+        "\" onclick=\"window.open(this.href, 'share-twitter','width=580,height=296');return false;\">Twitter</a>";
       
-      content.innerHTML += "<div style=\"background-color: rgb(207,241,255)\"><p><b>Like this policy?</b> We need your help telling people there's an alternative. Share this policy on: " + facebookLauncher + "</p><p>Help us by liking our <a href=\"https://www.facebook.com/JamesJanssonTeamForNSW/\">Facebook page</a> and following our <a href=\"https://twitter.com/jj4nsw\">Twitter account</a>.</p></div>";
+      content.innerHTML += "<div style=\"background-color: rgb(207,241,255)\"><p><b>Like this policy?</b> We need your help telling people there's an alternative. Share this policy on: " + facebookLauncher + " or " + twitterLauncher + "</p><p>Help us by liking our <a href=\"https://www.facebook.com/JamesJanssonTeamForNSW/\">Facebook page</a> and following our <a href=\"https://twitter.com/jj4nsw\">Twitter account</a>.</p></div>";
 
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
