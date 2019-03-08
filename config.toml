@@ -1,6 +1,7 @@
 publishDir = "docs"
 
-baseurl         = "/"
+
+baseurl         = "https://jj4nsw.org/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -8,6 +9,7 @@ paginate        = 6
 #SectionPagesMenu = "main"
 
 [params]
+  baseurl       = "https://jj4nsw.org/"
   title       = "James Jansson Team for NSW Upper House Election"
   subtitle    = "Candidates for Humans"
 

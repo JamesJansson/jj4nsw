@@ -357,9 +357,8 @@
       if (window.location.hash) {
         collLink = collLink.split(window.location.hash)[0];
       }
-      console.log(coll[i])
+
       collLink += "?expand=" + coll[i].getAttribute("id") + "#" + coll[i].parentElement.parentElement.getAttribute("id");
-      console.log(collLink);
       
       var collLinkEncoded = encodeURIComponent(collLink);
       var postText = encodeURIComponent('Vote 1 James Jansson Team in the NSW upper house.');
