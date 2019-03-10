@@ -10,7 +10,7 @@ type = "page"
 weight = 111
 
 +++
-*Media enquiries can be sent to jamesjansson4nsw@gmail.com*
+*Media enquiries can be sent to jamesjansson4nsw@gmail.com or 0490134827*
 
 The James Jansson Team for NSW is planning for a bigger, brighter future for NSW. We're free of vested interests and factional forces. We're focused on delivering results to the people of NSW. We're the candidates for humans.
 
