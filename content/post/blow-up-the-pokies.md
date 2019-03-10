@@ -13,7 +13,7 @@ image: img/pokies-preview.jpg
 
 ## James Jansson Team for the NSW upper house to blow up the pokies
 
-Today the James Jansson Team for NSW announces that it will completely abolish pokies from all non-casino venues (pubs and clubs) by 1st January 2022. The policy of complete abolishment is the strongest policy of any group running for parliament in NSW.
+Today the James Jansson Team for NSW announces that it will completely abolish pokies from all non-casino venues (pubs and clubs) by 1st January 2022. The policy of complete abolition is the strongest policy of any group running for parliament in NSW.
 
 “For too long, state governments under both Labor and Liberal have been addicted to pokies revenue, so they can say that the trains run on time” said lead candidate, James Jansson.
 
