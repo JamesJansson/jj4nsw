@@ -21,7 +21,7 @@ We have our how-to-vote cards ready for you to view (more instructions below abo
 
 ![How to vote back](/img/group_s_flyer_back.jpg "How to vote back")
 
-Please make sure you use your preferences, to maximise the power of your vote. Voting "1" above the vote doesn't mean that your vote automatically gets passed along if your chose group doesn't get elected. You MUST indicate your preferences. 
+Please make sure you use your preferences, to maximise the power of your vote. Voting "1" above the vote doesn't mean that your vote automatically gets passed along if your chosen group doesn't get elected. You MUST indicate your preferences. 
 
 We aren't giving directions on who to put number 2, 3 etc, however we encourage you to look at other minor parties, and also place some larger parties in your preference list. 
 NSW Electoral Commission's website has a [page that lists candidates (both in the upper house and lower house) with links to their websites.](https://candidates.elections.nsw.gov.au/#)
