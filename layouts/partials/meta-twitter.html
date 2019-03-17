@@ -5,6 +5,19 @@
     {{ else }}
     <meta name="twitter:card" content="summary"/>
     {{ end }}
+
+    {{if .Params.socialImage }}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:image" content="{{ .Params.socialImage | absURL}}"/>
+    {{else}}{{if .Params.image }}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:image" content="{{ .Params.image | absURL}}"/>
+    {{else}}{{if .Site.Params.defaultSocialImg}}
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:image" content="{{ .Site.Params.defaultSocialImg | absURL}}"/>
+    {{else}}{{if .Site.Params.defaultSocialImg}}
+        <meta name="twitter:card" content="summary"/>
+    {{end}}{{end}}{{end}}{{end}}
 {{ else }}
     <meta name="twitter:card" content="summary"/>
     {{ with .Site.Params.defaultSocialImg }}<meta name="twitter:image" content="{{ . | absURL }}"/>{{ end }}

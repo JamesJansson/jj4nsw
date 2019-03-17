@@ -11,7 +11,10 @@
 {{ else }}
     <meta property="og:type" content="website" />
     <meta property="og:description" content="{{ .Site.Params.description }}" />
-{{ end }}{{if .Params.image }}
+{{ end }}
+{{if .Params.socialImage }}
+    <meta property="og:image" content="{{ .Params.socialImage | absURL}}"/>
+{{else}}{{if .Params.image }}
     <meta property="og:image" content="{{ .Params.image | absURL}}"/>
 {{else}}{{if .Site.Params.defaultSocialImg}}
-    <meta property="og:image" content="{{ .Site.Params.defaultSocialImg | absURL}}"/>{{end}}{{end}}
+    <meta property="og:image" content="{{ .Site.Params.defaultSocialImg | absURL}}"/>{{end}}{{end}}{{end}}
